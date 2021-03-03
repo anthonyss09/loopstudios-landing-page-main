@@ -396,8 +396,10 @@ footer p {
     width: 31.5%;
   }
   .single-pic-container p {
-    align-self: flex-end;
-    padding-bottom: 3rem;
+    padding: 14rem 0 0 2rem;
+    font-size: 2rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.1rem;
   }
   .single-pic-container a,
   .pic {
