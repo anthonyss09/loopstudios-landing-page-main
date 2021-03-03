@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./main2.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- link fontawesome -->
+    <script src="./copy.js"></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-main-container">
+        <div class="header-image"></div>
+        <img src="./images/desktop/image-hero.jpg" alt="hero" class="desktop-hero">
+        <nav class="nav-mobile">
+            <div class="header-flex">
+                <img src="./images/logo.svg" alt="logo" class="nav-logo logo">
+                <button class="nav-button hamburger">
+                  <img src="./images/icon-hamburger.svg" alt="">
+                </button>
+                <button    class="nav-button x-button nav-open hidden">
+                  <img src="./images/icon-close.svg" alt="x" class="x-image">
+                </button>
+            </div>
+            <ul class="nav-list nav-open hidden">
+                <li><a href="#" class="text-link">About</a></li>
+                <li><a href="#" class="text-link">Careers</a></li>
+                <li><a href="#" class="text-link">Events</a></li>
+                <li><a href="#" class="text-link">Products</a></li>
+                <li class="li-last"><a href="#" class="text-link">Support</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-nav-background nav-open hidden">
+        </div>
+        <div class="title">
+            Immersive experiences that deliver
+        </div>
+        <div class="about-container">
+            <img src="./images/desktop/image-interactive.jpg" alt="interactive guy" class="interactive-guy">
+            <div class="about-text-container">
+                <h3>
+                    The leader in interactive VR
+                </h3>
+                <p class="about-text">
+                    Founded in 2011, Loopstudios has been producing world-class virtual reality
+                    projects for some of the best companies around the globe. Our award-winning
+                    creations have transformed businesses through digital experiences that bind
+                    to their brand.
+                </p>
+            </div>   
+        </div>
+        <div class="pics-container">
+                <div class="pic-head">
+                    <h3>
+                        Our creations
+                    </h3>
+                </div>    
+                <div class="button-see-all-container pic">
+                    <a href="#" class="button-see-all">see all</a>
+                </div>
+                <div class="single-pic-container"> 
+                    <div class="shade"></div>
+                    <img src="./images/mobile/image-deep-earth.jpg" alt="picture of earth" class="pic mobile-pic">
+                    <img src="./images/desktop/image-deep-earth.jpg" alt="picture of earth" class="pic desktop-pic">
+                    <a href="#" class="pic-link"><p>
+                        Deep <br> earth
+                    </p></a>   
+                </div>
+                <div class="pic-night-arcade single-pic-container">
+                    <div class="shade"></div>
+                    <img src="./images/mobile/image-night-arcade.jpg" alt="arcade" class="pic mobile-pic">
+                    <img src="./images/desktop/image-night-arcade.jpg" alt="arcade" class="pic desktop-pic">
+                    <a href="#" class="pic-link"><p>
+                        Night <br> arcade
+                    </p></a>     
+                </div>
+                <div class="pic-soccer-team single-pic-container">
+                    <div class="shade"></div>
+                    <img src="./images/mobile/image-soccer-team.jpg" alt="soccer" class="pic mobile-pic">
+                    <img src="./images/desktop/image-soccer-team.jpg" alt="soccer" class="pic desktop-pic">
+                    <a href="#" class="pic-link">
+                        <p>
+                            Soccer <br> team VR
+                        </p>
+                    </a>                    
+                </div>
+                <div class="pic-the-grid single-pic-container">
+                    <div class="shade"></div>
+                    <img src="./images/mobile/image-grid.jpg" alt="grid" class="pic mobile-pic">
+                    <img src="./images/desktop/image-grid.jpg" alt="grid" class="pic desktop-pic">
+                    <a href="#" class="pic-link">
+                        <p>
+                            The <br> grid
+                        </p>
+                    </a>               
+                </div>
+                <div class="pic-from-above single-pic-container">
+                    <div class="shade"></div>
+                    <img src="./images/mobile/image-from-above.jpg" alt="above" class="pic mobile-pic">
+                    <img src="./images/desktop/image-from-above.jpg" alt="above" class="pic desktop-pic">
+                    <a href="#" class="pic-link">
+                        <p>
+                            From up <br> above VR
+                        </p>
+                    </a>     
+                </div>
+                <div class="pic-pocket-borealis single-pic-container">
+                    <div class="shade"></div>
+                    <img src="./images/mobile/image-pocket-borealis.jpg" alt="borealis" class="pic mobile-pic">
+                    <img src="./images/desktop/image-pocket-borealis.jpg" alt="borealis" class="pic desktop-pic">
+                    <a href="#" class="pic-link">
+                        <p>
+                            Pocket <br> borealis
+                        </p>
+                    </a>    
+                </div>
+                <div class="pic-curiosity  single-pic-container">
+                    <div class="shade"></div>
+                    <img src="./images/mobile/image-curiosity.jpg" alt="curiosity" class="pic mobile-pic">
+                    <img src="./images/desktop/image-curiosity.jpg" alt="curiosity" class="pic desktop-pic">
+                    <a href="#" class="pic-link">
+                        <p>
+                            The <br> curiosity
+                        </p>
+                    </a>   
+                </div>
+                <div class="pic-fisheye single-pic-container">
+                    <div class="shade"></div>
+                    <img src="./images/mobile/image-fisheye.jpg" alt="fisheye" class="pic mobile-pic">
+                    <img src="./images/desktop/image-fisheye.jpg" alt="fisheye" class="pic desktop-pic">
+                    <a href="#" class="pic-link">
+                    <p>
+                        Make it <br> fisheye
+                    </p>
+                    </a>                                  
+                </div>          
+        </div>
+        <footer>
+            <div class="footer-flex-container">
+                <div class="footer-menu">
+                    <img src="./images/logo.svg" alt="logo" class="footer-logo logo">
+                    <div class="footer-link-container">
+                        <a href="#" class="text-link footer-link">About</a>
+                        <a href="#" class="text-link footer-link">Careers</a>
+                        <a href="#" class="text-link footer-link">Events</a>
+                        <a href="#" class="text-link footer-link">Products</a>
+                        <a href="#" class="text-link footer-link">Support</a>
+                    </div>    
+                </div>
+                <div class="footer-icons">
+                    <a href="#" class="icon-link text-link"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" class="icon-link text-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="icon-link text-link"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="icon-link text-link"><i class="fab fa-instagram"></i></a>  
+                    <p>
+                        © 2021 Loopstudios. All rights reserved.
+                    </p>
+                </div>
+            </div>   
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="#">Your Name Here</a>.
+            </div>
+        </footer>  
+    </div>
+  <!-- link javaScript -->
+  <script src="./index.js"></script>
+</body>
+
+</html>
